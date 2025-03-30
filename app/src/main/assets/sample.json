@@ -1,0 +1,12 @@
+{
+  "first_name": "Audyari",
+  "last_name": "Wiyono",
+  "age": 40,
+  "isStudent": true,
+  "courses": ["Android", "Flutter", "Kotlin"],
+  "address": {
+    "street": "Jl. A",
+    "city": "Bandung"
+  },
+  "salary": 10000000
+}

@@ -1,0 +1,10 @@
+{
+  "nama_depan": "Audyari",
+  "nama_belakang": "Wiyono",
+  "usia": 40,
+  "alamat": {
+    "jalan": "Jl. Alkaromah Pondok Gede",
+    "kota": "Bekasi"
+  },
+  "gaji": 10000000
+}

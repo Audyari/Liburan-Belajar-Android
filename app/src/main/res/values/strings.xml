@@ -10,4 +10,5 @@
         <item>Cindy</item>
         <item>Dian</item>
     </string-array>
+    <string name="cekDeviceFeature">Cek Device Feature</string>
 </resources>

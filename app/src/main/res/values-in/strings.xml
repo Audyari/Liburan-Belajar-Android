@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Belajar Android Indonesia</string>
+    <string name="nameEditText">Aplikasi Pertama Indonesia</string>
+    <string name="sayHelloButton">teken aja bree</string>
+    <string name="sayHelloTextView">Hello %1$s </string>
+    <string name="nameText">Nama Ente siape ? </string>
+    <string-array name="names">
+        <item>Ahmad</item>
+        <item>Bintang</item>
+        <item>Cindy</item>
+        <item>Dian</item>
+    </string-array>
+</resources>

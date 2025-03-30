@@ -24,4 +24,11 @@
         android:text="@string/sayHelloButton"
         android:textColor="@color/say_hello" />
 
+    <Button
+        android:id="@+id/cekDeviceFeature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cekDeviceFeature"
+        android:textColor="@color/say_hello" />
+
 </merge>
