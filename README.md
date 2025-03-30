@@ -41,5 +41,17 @@
   - animasi
 
 10. String Resource :
-    - Formatting String :  <string name="sayHelloTextView">Hello %1$s </string>
-    - String Array : 
+    - Formatting String :  <string name="sayHelloTextView">Hello %1$s </string> untuk data dinamis
+    - String Array : <string-array name="names">
+
+11. Value Resource Lainnya
+    Misalnya Integer : <integer name="maxAge">100</integer>
+    Integer Array : <integer-array name="maxAge">100</integer-array>
+    Boolean : <bool name="isLogin">true</bool>
+    Color : <color name="colorPrimary">#FF0000</color>
+    dan lain-lain
+
+12. Layout Resource :
+    - pake Merge dan include
+
+13. Color State List Resource

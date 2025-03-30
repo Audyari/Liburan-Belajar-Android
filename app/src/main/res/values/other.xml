@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="maxAge">100</integer>
+    
+    <integer-array name="maxAge">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+    </integer-array>
+    
+    <bool name="isLogin">true</bool>
+    
+    <color name="colorPrimary">#9C27B0</color>
+</resources>

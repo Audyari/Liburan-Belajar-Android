@@ -3,6 +3,7 @@
     <string name="nameEditText">Aplikasi Pertama Saya</string>
     <string name="sayHelloButton">Klik Saya </string>
     <string name="sayHelloTextView">Hello %1$s </string>
+    <string name="nameText">Masukkan Nama Anda</string>
     <string-array name="names">
         <item>Ahmad</item>
         <item>Bintang</item>

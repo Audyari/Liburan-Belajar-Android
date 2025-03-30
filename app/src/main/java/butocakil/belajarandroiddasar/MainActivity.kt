@@ -46,6 +46,14 @@ class MainActivity : ComponentActivity() {
             resources.getStringArray(R.array.names).forEach {
                 Log.d("log di sayHelloButton", "Name: $it")
             }
+
+            Log.i("Value Resource", "Max Age: ${resources.getInteger(R.integer.maxAge).toString()}")
+            Log.i("Value Resource", "Is Login: ${resources.getBoolean(R.bool.isLogin).toString()}")
+            Log.i("Value Resource", "Color Primary: ${resources.getColor(R.color.colorPrimary, theme).toString()}")
+            Log.i("Value Resource", resources.getIntArray(R.array.maxAge).joinToString(", "))
+
+            //sayHelloButton.setBackgroundColor(resources.getColor(R.color.colorPrimary, theme))
+            sayHelloTextView2.setBackgroundColor(resources.getColor(R.color.colorPrimary, theme))
         }
     }
 }
