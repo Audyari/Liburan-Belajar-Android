@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">BelajarAndroid Dasar</string>
+    <string name="app_name">Belajar Android Dasar</string>
+    <string name="nameEditText">Aplikasi Pertama Saya</string>
+    <string name="sayHelloButton">Klik Saya </string>
+    <string name="sayHelloTextView">Hello %1$s </string>
+    <string-array name="names">
+        <item>Ahmad</item>
+        <item>Bintang</item>
+        <item>Cindy</item>
+        <item>Dian</item>
+    </string-array>
 </resources>
