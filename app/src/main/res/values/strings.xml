@@ -4,6 +4,12 @@
     <string name="sayHelloButton">Klik Saya </string>
     <string name="sayHelloTextView">Hello %1$s </string>
     <string name="nameText">Masukkan Nama Anda</string>
+    <string name="gameText">COMPUTER :</string>
+    <string name="gameButton">Main</string>
+    <string name="Description">Gambar Game</string>
+    <string name="You">YOU :</string>
+    <string name="Result">RESULT :</string>
+    
     <string-array name="names">
         <item>Ahmad</item>
         <item>Bintang</item>

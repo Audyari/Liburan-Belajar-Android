@@ -143,4 +143,21 @@
             - onClick
             - check
 
-25. Profiling
+25. Profiling :
+    - yang sering terjadi adalah masalah memory leak
+    - memonitor penggunaan memory, cpu, dan lain-lain
+    - gunakkan analyze memory usage heap dump pastikan gk ada memory leak
+
+26. Reset Android Studio :
+    - Hapus Emulator
+    - Hapus Android SDK
+    - Invalidate Cache di menu file
+
+27. bikin aplikasi gunting kertas batu
+    - bikin object game
+    - bikin unit test objek game
+    - bikin mainActivity
+    - bikin view
+    - bikin resources value String
+    - edit AndroidManifest.xml
+ 
