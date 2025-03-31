@@ -1,6 +1,7 @@
 package butocakil.belajarandroiddasar
 
 import android.content.pm.PackageManager
+import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
@@ -23,6 +24,24 @@ class MainActivity : ComponentActivity() {
         sayHelloTextView = findViewById(R.id.sayHelloTextView)
         sayHelloTextView2 = findViewById(R.id.sayHelloTextView2)
         cekDeviceFeature = findViewById(R.id.cekDeviceFeature)
+    }
+
+    // pengecekan versi platform API
+    fun checkApiVersion() {
+
+        // cara cek sdk yg kita pake
+        Log.d("log di Device Feature", "API level: ${Build.VERSION.SDK_INT}")
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            Log.d("log di Device Feature", "API level 23 or higher")
+        } else {
+            Log.d("log di Device Feature", "API level lower than 23")
+        }
+    }
+
+    // debugging
+    fun printDebug(name: String) {
+        Log.d("log di Debug", name)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -88,6 +107,12 @@ class MainActivity : ComponentActivity() {
             } else {
                 Log.d("log di Device Feature", "Fingerprint not supported")
             }
+
+            // pengecekan versi platform API
+            checkApiVersion()
+
+            // debugging
+            printDebug("Hello, Audyari W")
         }
     }
 }

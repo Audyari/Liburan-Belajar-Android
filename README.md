@@ -93,7 +93,7 @@
         contoh : 
         <uses-feature android:name="android.hardware.fingerprint" android:required="true" />
 
-   - Device Feature di Kode
+   - Device Feature di Kode 
         contoh : 
        if (packageManager.hasSystemFeature(PackageManager.FEATURE_FINGERPRINT)) {
             Log.d("log di Device Feature", "Fingerprint supported")
@@ -101,4 +101,46 @@
             Log.d("log di Device Feature", "Fingerprint not supported")
         }
 
-21. 
+    - pengecekan versi platform API
+        contoh : 
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            Log.d("log di Device Feature", "API level 23 or higher")
+        } else {
+            Log.d("log di Device Feature", "API level lower than 23")
+        }
+
+21. screen compatibility
+    - screen size : ukuran layar
+        *small
+        *normal
+        *large
+        *xlarge
+    - screen density : kepadatan pixel : gunakan contoh 100dp
+        *ldpi
+        *mdpi
+        *hdpi
+        *xhdpi
+        *xxhdpi
+        *xxxhdpi
+
+22. resource compatibility
+    - berbeda gambar kalo kita buat landscape
+
+23. debugging :
+    gunakan evaluate expression dan dot warna merah
+    - bisa berinteraksi di lingkungan sekitar nya
+    
+24.  Testing :
+
+    - local unit test adalah unit test yang dijalankan di komputer
+    - instrumented test adalah unit test yang dijalankan di perangkat android
+        
+        jangan manual gunakan : Activity Scenario Rule : 
+
+        * gunakan library Espresso :
+            - onView
+            - perform
+            - onClick
+            - check
+
+25. Profiling
